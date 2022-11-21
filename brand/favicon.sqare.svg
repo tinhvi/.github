@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="yes"?>
+<svg viewBox="0 0 16 16" width="512" height="512">
+	<rect x="0" y="0" width="16" height="16" rx="2" ry="2"/>
+	<path d="M2,5 h9 v9" stroke-width="2" stroke="white" fill="none" />
+	<path d="M5,2 v9 h9" stroke-width="2" stroke="white" fill="none" />
+</svg>

@@ -47,22 +47,15 @@
 			width="16"
 			height="16"
 			rx="2"
-			ry="2"
-			fill="url(#grad1)" />
+			ry="2"/>
 	<g clip-path="url(#circleClip)">
-		<rect
-				x="0"
-				y="0"
-				width="16"
-				height="16"
-				fill="white" />
 		<path
 				d="M-1,-1
 					 c0,5 1,6 6,6
 					 c5,0 6,1 6,6
 					 c0,5 1,6 6,6"
 				stroke-width="2"
-				stroke="url(#grad2)"
+				stroke="white"
 				fill="none" />
 		<path
 				d="M-1,-1
@@ -70,7 +63,7 @@
 					 c0,5 1,6 6,6
 					 c5,0 6,1 6,6"
 				stroke-width="2"
-				stroke="url(#grad2)"
+				stroke="white"
 				fill="none" />
 	</g>
 </svg>
