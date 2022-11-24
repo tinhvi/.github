@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<svg viewBox="0 0 16 16" width="512" height="512">
+  <defs>
+    <linearGradient id="gradRow">
+      <stop offset="5%" stop-color="gold" />
+      <stop offset="95%" stop-color="goldenrod" />
+    </linearGradient>
+    <linearGradient id="gradCol" gradientTransform="rotate(90)">
+      <stop offset="5%" stop-color="gold" />
+      <stop offset="95%" stop-color="red" />
+    </linearGradient>
+  </defs>
+
+  <!-- using my linear gradient -->
+	<rect x="0" y="0" width="16" height="16" rx="2" ry="2"/>
+	<rect x="1" y="3" width="14" height="2" fill="url(#gradRow)" />
+	<rect x="3" y="1" width="2" height="14" fill="url(#gradCol)" />
+	<rect x="1" y="7" width="14" height="2" fill="url(#gradRow)" />
+	<rect x="7" y="1" width="2" height="14" fill="url(#gradCol)" />
+	<rect x="1" y="11" width="14" height="2" fill="url(#gradRow)" />
+	<rect x="11" y="1" width="2" height="14" fill="url(#gradCol)" />
+</svg>
