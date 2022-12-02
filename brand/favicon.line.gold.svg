@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes"?>
+<svg viewBox="0 0 16 16" width="512" height="512">
+	<defs>
+		<linearGradient id="topgrad">
+			<stop offset="0" stop-color="goldenrod"/>
+			<stop offset="1" stop-color="white" />
+		</linearGradient>
+		<linearGradient id="bottomgrad">
+			<stop offset="0" stop-color="white"/>
+			<stop offset="1" stop-color="goldenrod" />
+		</linearGradient>
+		<linearGradient id="leftgrad" x1="0" x2="0" y1="0" y2="1">
+			<stop offset="0" stop-color="gold"/>
+			<stop offset="1" stop-color="white" />
+		</linearGradient>
+		<linearGradient id="rightgrad" x1="0" x2="0" y1="0" y2="1">
+			<stop offset="0" stop-color="white"/>
+			<stop offset="1" stop-color="gold" />
+		</linearGradient>
+	</defs>
+	<path d="M2,0 12,0 16,4 16,14 14,16 4,16 0,12 0,2 Z" />
+	<path d="M2,4 h8 l2,2 h-10" fill="url(#topgrad)" />
+	<path d="M4,10 l2,2 h8 v-2" fill="url(#bottomgrad)" />
+	<path d="M10,4 l2,2 v8 h-2" fill="url(#rightgrad)" />
+	<path d="M4,2 v8 l2,2 v-10" fill="url(#leftgrad)" />
+</svg>
