@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg
+	viewBox="0 0 512 512"
+	width="512"
+	height="512"
+	xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<clipPath id="bigOne">
+			<polygon points="256,256 256,0 477.7025,128 477.7025,384"/>
+		</clipPath>
+		<clipPath id="bigTwo">
+			<polygon points="256,256 477.7025,384 256,512 34.2975,384" />
+		</clipPath>
+		<clipPath id="bigThree">
+			<polygon points="256,256 34.2975,384 34.2975,128 256,0"/>
+		</clipPath>
+		<radialGradient id="gradOne">
+			<stop offset="0" stop-color="#ff0000" />
+			<stop offset="1" stop-color="#00ffff" />
+		</radialGradient>
+		<radialGradient id="gradTwo">
+			<stop offset="0" stop-color="#00ff00" />
+			<stop offset="1" stop-color="#ff00ff" />
+		</radialGradient>
+		<radialGradient id="gradThree">
+			<stop offset="0" stop-color="#0000ff" />
+			<stop offset="1" stop-color="#ffff00" />
+		</radialGradient>
+		<clipPath id="smallOne">
+			<polygon points="256,256 256,384 145.1487,320 145.1487,192" />
+		</clipPath>
+		<clipPath id="smallTwo">
+			<polygon points="256,256 145.1487,192 256,128 366.8513,192" />
+		</clipPath>
+		<clipPath id="smallThree">
+			<polygon points="256,256 366.8513,192 366.8513,320 256,384" />
+		</clipPath>
+	</defs>
+	<circle cx="256" cy="256" r="256" fill="url(#gradOne)" clip-path="url(#bigOne)" />
+	<circle cx="256" cy="256" r="256" fill="url(#gradTwo)" clip-path="url(#bigTwo)" />
+	<circle cx="256" cy="256" r="256" fill="url(#gradThree)" clip-path="url(#bigThree)" />
+	<circle cx="256" cy="256" r="256" fill="url(#gradOne)" clip-path="url(#smallOne)" />
+	<circle cx="256" cy="256" r="256" fill="url(#gradTwo)" clip-path="url(#smallTwo)" />
+	<circle cx="256" cy="256" r="256" fill="url(#gradThree)" clip-path="url(#smallThree)" />
+</svg>
