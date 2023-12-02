@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <polyline style="fill: rgb(216, 216, 216); transform-box: fill-box; transform-origin: 50% 50%;" points="512 256 384 34.298 128 34.298 0 256 128 477.703 384 477.703" transform="matrix(0.000001, -1, 1, 0.000001, -0.000015, 0.000015)"/>
+  <polygon style="fill: black" points="128,128 128,320 192,320 192,256 256,256 256,192 192,192 192,128 128,128"/>
+  <polygon style="fill: black" points="192,384 128,384 128,320 192,320 192,448 320,448 320,320 384,320 384,384 192,384"/>
+  <path d="M 320 256 L 384 256 L 384 320 L 320 320 L 320 256 Z M 320 128 L 384 128 L 384 192 L 320 192 L 320 128 Z" style="fill: black"/>
+</svg>
