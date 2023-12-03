@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 125" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Noto Sans Mono">@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&amp;apm;display=swap");</style>
+    <style bx:fonts="Noto Sans">@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&amp;apm;display=swap");</style>
+    <style>
+      .title { font-family: "Noto Sans"; font-size: 58px; font-weight: 900; white-space: nowrap; }
+      .slogan { font-family: "Noto Sans Mono"; font-size: 18px; white-space: nowrap; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="500" height="125" style="fill: silver;" rx="64"/>
+  <symbol id="tinhvi-logo" viewBox="0 0 512 512">
+    <circle cx="256" cy="256" r="256" fill="black"/>
+    <path d="M 128 128 L 192 128 L 192 192 L 256 192 L 256 256 L 192 256 L 192 320 L 128 320 L 128 256 L 64 256 L 64 192 L 128 192 L 128 128 Z M 128 320 C 128 405.333 170.667 448 256 448 C 341.333 448 384 405.333 384 320 M 320 320 C 320 362.667 298.667 384 256 384 C 213.333 384 192 362.667 192 320 M 320 128 L 384 128 L 384 192 L 320 192 L 320 128 Z M 320 256 L 384 256 L 384 320 L 320 320 L 320 256 Z" style="fill: white;"/>
+  </symbol>
+  <use width="95" height="95" transform="matrix(1, 0, 0, 1, 15, 15)" style="transform-origin: 0px 47.5px;" xlink:href="#tinhvi-logo"/>
+  <text class="title" x="125" y="84.978" style="white-space: pre;">TinhVi.Tech</text>
+  <text class="slogan" x="148.624" y="111.124">Bringing Your Idea to Life!</text>
+</svg>
