@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <path id="path-bottom" d="M 16 256 A 240 240 0 0 0 496 256" style="fill: none;"/>
+    <style bx:fonts="Noto Sans">@import url(https://fonts.googleapis.com/css2?family=Noto+Sans%3Aital%2Cwght%400%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C100%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900&amp;display=swap);</style>
+  </defs>
+  <circle cx="256" cy="256" r="256" fill="black"/>
+  <polygon style="fill: white;" points="128,128 192,128 192,192 256,192 256,256 192,256 192,320 128,320 128,256 64,256 64,192 128,192 128,128"/>
+  <path d="M 128 320 Q 128,448 256,448 Q 384,448 384,320 M 320,320 Q 320,384 256,384 Q 192,384 192,320" style="fill: white;"/>
+  <polygon style="fill: white;" points="320,128 384,128 384,192 320,192 320,128"/>
+  <polygon style="fill: white;" points="320,256 384,256 384,320 320,320 320,256"/>
+  <text style="fill : white; font-family : 'Noto Sans'; font-size : 40px; alignment-baseline : initial;"><textPath startOffset="133" xlink:href="#path-bottom">Bringing Your Idea to Life!</textPath></text>
+</svg>

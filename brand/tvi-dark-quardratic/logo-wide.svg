@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 125" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Noto Sans">@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&amp;display=swap");</style>
+    <style>.title { font-family: "Noto Sans"; font-size: 58px; font-weight: 900; white-space: nowrap; }.sub-title { font-family: "Noto Sans"; font-size: 16px; white-space: nowrap; }</style>
+  </defs>
+  <rect x="0" y="0" width="500" height="125" style="fill: white;" rx="64"/>
+  <symbol id="tinhvi-logo" viewBox="0 0 512 512">
+    <circle cx="256" cy="256" r="256" fill="black"/>
+    <polygon style="fill: white;" points="128,128 192,128 192,192 256,192 256,256 192,256 192,320 128,320 128,256 64,256 64,192 128,192 128,128"/>
+    <path d="M 128 320 Q 128,448 256,448 Q 384,448 384,320 M 320,320 Q 320,384 256,384 Q 192,384 192,320" style="fill: white;"/>
+    <polygon style="fill: white;" points="320,128 384,128 384,192 320,192 320,128"/>
+    <polygon style="fill: white;" points="320,256 384,256 384,320 320,320 320,256"/>
+  </symbol>
+  <use width="95" height="95" transform="matrix(1, 0, 0, 1, 15, 15)" style="transform-origin: 0px 47.5px;" xlink:href="#tinhvi-logo"/>
+  <text x="125" y="84.978" class="title" style="font-size: 58px;">TinhVi.Tech</text>
+  <line x1="269.409" y1="95.443" x2="319.409" y2="95.443" stroke="silver"/>
+  <text class="sub-title" style="fill: rgb(128, 128, 128); font-size: 16px;" x="198.631" y="112.569">Bringing Your Idea to Life</text>
+</svg>
