@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <path id="path-bottom" d="M 24 256 A 232 240 0 0 0 488 256" style="fill: none;"/>
-    <style bx:fonts="JetBrains Mono">@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&amp;display=swap');</style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&amp;display=swap');</style>
     <style>
       .slogan {
         font-family: "JetBrains Mono";
