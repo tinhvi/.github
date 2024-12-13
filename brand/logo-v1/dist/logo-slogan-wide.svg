@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 125" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;800&amp;display=swap');</style>
+    <style>
+      .title {
+        font-family: "JetBrains Mono";
+        font-size: 90px; font-weight: 800;
+        white-space: nowrap;
+      }
+      .slogan {
+        font-family: "JetBrains Mono";
+        font-size: 20px;
+        white-space: nowrap;
+      }
+    </style>
+  </defs>
+  <symbol id="tinhvi-logo" viewBox="0 0 512 512">
+    <circle cx="256" cy="256" r="256" fill="black"/>
+    <path d="M 128 128 L 192 128 L 192 192 L 256 192 L 256 256 L 192 256 L 192 320 L 128 320 L 128 256 L 64 256 L 64 192 L 128 192 L 128 128 Z M 128 320 C 128 405.333 170.667 448 256 448 C 341.333 448 384 405.333 384 320 M 320 320 C 320 362.667 298.667 384 256 384 C 213.333 384 192 362.667 192 320 M 320 128 L 384 128 L 384 192 L 320 192 L 320 128 Z M 320 256 L 384 256 L 384 320 L 320 320 L 320 256 Z" style="fill: white;"/>
+  </symbol>
+  <rect x="0" y="0" width="500" height="125" style="fill: white;" rx="64"/>
+  <use width="95" height="95" transform="matrix(1, 0, 0, 1, 15, 15)" xlink:href="#tinhvi-logo"/>
+  <text class="title" x="125" y="95">tinhvi</text>
+  <text class="slogan" x="125" y="117">Bringing Your Idea to Life!</text>
+</svg>
